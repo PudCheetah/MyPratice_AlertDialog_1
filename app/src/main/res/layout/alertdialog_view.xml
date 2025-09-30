@@ -12,7 +12,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/TV_1"
-        app:srcCompat="@mipmap/img" />
+        app:srcCompat="@drawable/photo" />
 
     <Button
         android:id="@+id/btn_no"

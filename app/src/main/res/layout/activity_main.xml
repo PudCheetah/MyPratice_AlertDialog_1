@@ -8,8 +8,23 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btn_1"
+        android:id="@+id/btn_callBasicAlertDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_marginTop="40dp"
+        android:text="call Basic Alert Dialog"
+        app:layout_constraintEnd_toEndOf="@+id/btn_callCustomAlertDialog"
+        app:layout_constraintStart_toStartOf="@+id/btn_callCustomAlertDialog"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_callCustomAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Call Custom Alert Dialog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_callBasicAlertDialog" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
